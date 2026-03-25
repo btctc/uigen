@@ -1,12 +1,12 @@
 "use client";
 
-import { Message } from "ai";
+import { UIMessage } from "ai";
 import { cn } from "@/lib/utils";
 import { User, Bot, Loader2 } from "lucide-react";
 import { MarkdownRenderer } from "./MarkdownRenderer";
 
 interface MessageListProps {
-  messages: Message[];
+  messages: UIMessage[];
   isLoading?: boolean;
 }
 
@@ -28,7 +28,7 @@ export function MessageList({ messages, isLoading }: MessageListProps) {
       <div className="space-y-6 max-w-4xl mx-auto w-full">
         {messages.map((message) => (
           <div
-            key={message.id || message.content}
+            key={message.id}
             className={cn(
               "flex gap-4",
               message.role === "user" ? "justify-end" : "justify-start"
@@ -41,19 +41,19 @@ export function MessageList({ messages, isLoading }: MessageListProps) {
                 </div>
               </div>
             )}
-            
+
             <div className={cn(
               "flex flex-col gap-2 max-w-[85%]",
               message.role === "user" ? "items-end" : "items-start"
             )}>
               <div className={cn(
                 "rounded-xl px-4 py-3",
-                message.role === "user" 
-                  ? "bg-blue-600 text-white shadow-sm" 
+                message.role === "user"
+                  ? "bg-blue-600 text-white shadow-sm"
                   : "bg-white text-neutral-900 border border-neutral-200 shadow-sm"
               )}>
                 <div className="text-sm">
-                  {message.parts ? (
+                  {message.parts && message.parts.length > 0 ? (
                     <>
                       {message.parts.map((part, partIndex) => {
                         switch (part.type) {
@@ -71,12 +71,12 @@ export function MessageList({ messages, isLoading }: MessageListProps) {
                             return (
                               <div key={partIndex} className="mt-3 p-3 bg-white/50 rounded-md border border-neutral-200">
                                 <span className="text-xs font-medium text-neutral-600 block mb-1">Reasoning</span>
-                                <span className="text-sm text-neutral-700">{part.reasoning}</span>
+                                <span className="text-sm text-neutral-700">{(part as any).text ?? (part as any).reasoning}</span>
                               </div>
                             );
-                          case "tool-invocation":
-                            const tool = part.toolInvocation;
-                            const args = tool.args as any;
+                          case "dynamic-tool": {
+                            const toolPart = part as any;
+                            const args = toolPart.input as any;
                             const fileName = args?.path;
                             const commandVerbs: Record<string, string> = {
                               create: "Creating",
@@ -86,12 +86,13 @@ export function MessageList({ messages, isLoading }: MessageListProps) {
                               undo_edit: "Undoing edit in",
                             };
                             const verb = commandVerbs[args?.command] ?? "Editing";
-                            const toolLabel = tool.toolName === "str_replace_editor"
+                            const toolLabel = toolPart.toolName === "str_replace_editor"
                               ? fileName ? `${verb} ${fileName}` : "Editing file"
-                              : tool.toolName;
+                              : toolPart.toolName;
+                            const isDone = toolPart.state === "output-available";
                             return (
                               <div key={partIndex} className="inline-flex items-center gap-2 mt-2 px-3 py-1.5 bg-neutral-50 rounded-lg text-xs border border-neutral-200">
-                                {tool.state === "result" && tool.result ? (
+                                {isDone && toolPart.output ? (
                                   <>
                                     <div className="w-2 h-2 rounded-full bg-emerald-500 flex-shrink-0"></div>
                                     <span className="text-neutral-600">{toolLabel}</span>
@@ -104,15 +105,48 @@ export function MessageList({ messages, isLoading }: MessageListProps) {
                                 )}
                               </div>
                             );
-                          case "source":
+                          }
+                          case "source-url":
                             return (
                               <div key={partIndex} className="mt-2 text-xs text-neutral-500">
-                                Source: {JSON.stringify(part.source)}
+                                Source: {(part as any).url}
                               </div>
                             );
                           case "step-start":
                             return partIndex > 0 ? <hr key={partIndex} className="my-3 border-neutral-200" /> : null;
                           default:
+                            // Handle legacy stored messages with tool-invocation type
+                            if ((part as any).type === "tool-invocation") {
+                              const tool = (part as any).toolInvocation;
+                              const args = tool?.args as any;
+                              const fileName = args?.path;
+                              const commandVerbs: Record<string, string> = {
+                                create: "Creating",
+                                str_replace: "Editing",
+                                insert: "Editing",
+                                view: "Reading",
+                                undo_edit: "Undoing edit in",
+                              };
+                              const verb = commandVerbs[args?.command] ?? "Editing";
+                              const toolLabel = tool?.toolName === "str_replace_editor"
+                                ? fileName ? `${verb} ${fileName}` : "Editing file"
+                                : tool?.toolName;
+                              return (
+                                <div key={partIndex} className="inline-flex items-center gap-2 mt-2 px-3 py-1.5 bg-neutral-50 rounded-lg text-xs border border-neutral-200">
+                                  {tool?.state === "result" && tool?.result ? (
+                                    <>
+                                      <div className="w-2 h-2 rounded-full bg-emerald-500 flex-shrink-0"></div>
+                                      <span className="text-neutral-600">{toolLabel}</span>
+                                    </>
+                                  ) : (
+                                    <>
+                                      <Loader2 className="w-3 h-3 animate-spin text-blue-600 flex-shrink-0" />
+                                      <span className="text-neutral-600">{toolLabel}</span>
+                                    </>
+                                  )}
+                                </div>
+                              );
+                            }
                             return null;
                         }
                       })}
@@ -125,11 +159,12 @@ export function MessageList({ messages, isLoading }: MessageListProps) {
                           </div>
                         )}
                     </>
-                  ) : message.content ? (
+                  ) : (message as any).content ? (
+                    // Backwards compatibility: render legacy stored messages with content field
                     message.role === "user" ? (
-                      <span className="whitespace-pre-wrap">{message.content}</span>
+                      <span className="whitespace-pre-wrap">{(message as any).content}</span>
                     ) : (
-                      <MarkdownRenderer content={message.content} className="prose-sm" />
+                      <MarkdownRenderer content={(message as any).content} className="prose-sm" />
                     )
                   ) : isLoading &&
                     message.role === "assistant" &&
@@ -142,7 +177,7 @@ export function MessageList({ messages, isLoading }: MessageListProps) {
                 </div>
               </div>
             </div>
-            
+
             {message.role === "user" && (
               <div className="flex-shrink-0">
                 <div className="w-9 h-9 rounded-lg bg-blue-600 shadow-sm flex items-center justify-center">

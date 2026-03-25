@@ -46,9 +46,7 @@ describe("ChatContext", () => {
 
   const mockUseAIChat = {
     messages: [],
-    input: "",
-    handleInputChange: vi.fn(),
-    handleSubmit: vi.fn(),
+    sendMessage: vi.fn(),
     status: "idle",
   };
 
@@ -81,8 +79,8 @@ describe("ChatContext", () => {
 
   test("initializes with project ID and messages", () => {
     const initialMessages = [
-      { id: "1", role: "user" as const, content: "Hello" },
-      { id: "2", role: "assistant" as const, content: "Hi there!" },
+      { id: "1", role: "user" as const, content: "Hello", parts: [{ type: "text" as const, text: "Hello" }] },
+      { id: "2", role: "assistant" as const, content: "Hi there!", parts: [{ type: "text" as const, text: "Hi there!" }] },
     ];
 
     (useAIChat as any).mockReturnValue({
@@ -97,12 +95,8 @@ describe("ChatContext", () => {
     );
 
     expect(useAIChat).toHaveBeenCalledWith({
-      api: "/api/chat",
-      initialMessages,
-      body: {
-        files: mockFileSystem.serialize(),
-        projectId: "test-project",
-      },
+      transport: expect.any(Object),
+      messages: initialMessages,
       onToolCall: expect.any(Function),
     });
 
@@ -110,7 +104,7 @@ describe("ChatContext", () => {
   });
 
   test("tracks anonymous work when no project ID", async () => {
-    const mockMessages = [{ id: "1", role: "user", content: "Hello" }];
+    const mockMessages = [{ id: "1", role: "user", content: "Hello", parts: [{ type: "text" as const, text: "Hello" }] }];
 
     (useAIChat as any).mockReturnValue({
       ...mockUseAIChat,
@@ -132,7 +126,7 @@ describe("ChatContext", () => {
   });
 
   test("does not track anonymous work when project ID exists", async () => {
-    const mockMessages = [{ id: "1", role: "user", content: "Hello" }];
+    const mockMessages = [{ id: "1", role: "user", content: "Hello", parts: [{ type: "text" as const, text: "Hello" }] }];
 
     (useAIChat as any).mockReturnValue({
       ...mockUseAIChat,
@@ -151,13 +145,8 @@ describe("ChatContext", () => {
   });
 
   test("passes through AI chat functionality", () => {
-    const mockHandleInputChange = vi.fn();
-    const mockHandleSubmit = vi.fn();
-
     (useAIChat as any).mockReturnValue({
       ...mockUseAIChat,
-      handleInputChange: mockHandleInputChange,
-      handleSubmit: mockHandleSubmit,
       status: "loading",
     });
 
@@ -191,9 +180,9 @@ describe("ChatContext", () => {
       </ChatProvider>
     );
 
-    const toolCall = { toolName: "test", args: {} };
+    const toolCall = { toolName: "test", input: {} };
     onToolCallHandler({ toolCall });
 
-    expect(mockHandleToolCall).toHaveBeenCalledWith(toolCall);
+    expect(mockHandleToolCall).toHaveBeenCalledWith({ toolName: "test", args: {} });
   });
 });
