@@ -1,3 +1,13 @@
+/**
+ * Home page (root route "/")
+ *
+ * This is the entry point of the application. It handles two cases:
+ * - Authenticated users: fetches their projects and redirects to the most
+ *   recent one. If no projects exist yet, a new project is created and the
+ *   user is redirected to it.
+ * - Anonymous users: renders the MainContent component without a project,
+ *   allowing them to explore the UI generator without signing in.
+ */
 import { getUser } from "@/actions";
 import { getProjects } from "@/actions/get-projects";
 import { createProject } from "@/actions/create-project";
