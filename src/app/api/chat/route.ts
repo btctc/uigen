@@ -1,20 +1,47 @@
-import type { FileNode } from "@/lib/file-system";
 import { VirtualFileSystem } from "@/lib/file-system";
 import { streamText, convertToModelMessages, stepCountIs } from "ai";
 import { buildStrReplaceTool } from "@/lib/tools/str-replace";
 import { buildFileManagerTool } from "@/lib/tools/file-manager";
 import { prisma } from "@/lib/prisma";
-import { getSession } from "@/lib/auth";
+import { verifySession } from "@/lib/auth";
 import { getLanguageModel } from "@/lib/provider";
 import { generationPrompt } from "@/lib/prompts/generation";
+import { z } from "zod";
+import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
 
-export async function POST(req: Request) {
-  const {
-    messages,
-    files,
-    projectId,
-  }: { messages: any[]; files: Record<string, FileNode>; projectId?: string } =
-    await req.json();
+const chatRequestSchema = z.object({
+  messages: z.array(
+    z.object({
+      role: z.enum(["user", "assistant", "system", "tool"]),
+      content: z.union([z.string(), z.array(z.unknown())]),
+      id: z.string().optional(),
+      toolInvocations: z.array(z.unknown()).optional(),
+    })
+  ),
+  files: z.record(z.string(), z.unknown()),
+  projectId: z.string().optional(),
+});
+
+export async function POST(req: NextRequest) {
+  const session = await verifySession(req);
+  if (!session) {
+    return NextResponse.json(
+      { error: "Authentication required" },
+      { status: 401 }
+    );
+  }
+
+  const body = await req.json();
+  const parsed = chatRequestSchema.safeParse(body);
+  if (!parsed.success) {
+    return NextResponse.json(
+      { error: "Invalid request body", details: parsed.error.flatten() },
+      { status: 400 }
+    );
+  }
+
+  const { messages, files, projectId } = parsed.data;
 
   // Reconstruct the VirtualFileSystem from serialized data
   const fileSystem = new VirtualFileSystem();
@@ -23,7 +50,7 @@ export async function POST(req: Request) {
   const model = getLanguageModel();
   // Use fewer steps for mock provider to prevent repetition
   const isMockProvider = !process.env.ANTHROPIC_API_KEY;
-  const userMessages = messages.filter((m: any) => m.role !== "system");
+  const userMessages = messages.filter((m) => m.role !== "system");
   const modelMessages = await convertToModelMessages(userMessages);
 
   const result = streamText({
@@ -51,13 +78,6 @@ export async function POST(req: Request) {
       // Save to project if projectId is provided and user is authenticated
       if (projectId) {
         try {
-          // Check if user is authenticated
-          const session = await getSession();
-          if (!session) {
-            console.error("User not authenticated, cannot save project");
-            return;
-          }
-
           // Combine original user messages with response messages
           const responseMessages = response.messages || [];
           const allMessages = [...userMessages, ...responseMessages];
