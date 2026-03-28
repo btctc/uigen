@@ -1,0 +1,8 @@
+[    3708ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rK (https://www.anthropic.com/_next/static/chunks/d0300bffb79131f2.js:1:40118)
+    at io (https://www.anthropic.com/_next/static/chunks/d0300bffb79131f2.js:1:90840)
+    at sc (https://www.anthropic.com/_next/static/chunks/d0300bffb79131f2.js:1:131311)
+    at https://www.anthropic.com/_next/static/chunks/d0300bffb79131f2.js:1:126201
+    at u9 (https://www.anthropic.com/_next/static/chunks/d0300bffb79131f2.js:1:126302)
+    at s$ (https://www.anthropic.com/_next/static/chunks/d0300bffb79131f2.js:1:152816)
+    at MessagePort._ (https://www.anthropic.com/_next/static/chunks/d0300bffb79131f2.js:1:1656)
