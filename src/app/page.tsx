@@ -26,6 +26,5 @@ export default async function Home() {
   }
 
   // For anonymous users, show the main content without a project
-  const x: string = 123;
-return <MainContent user={user} />;
+  return <MainContent user={user} />;
 }
