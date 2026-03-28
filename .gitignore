@@ -52,3 +52,5 @@ next-env.d.ts
 post-log.json
 session-log.txt
 secrets.json
+.playwright-mcp/
+audit-*.md
