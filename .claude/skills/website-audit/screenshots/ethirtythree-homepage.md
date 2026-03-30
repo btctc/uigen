@@ -1,0 +1,149 @@
+- generic [ref=e2]:
+  - banner:
+    - generic [ref=e3]:
+      - link "Skip to Content" [ref=e4] [cursor=pointer]:
+        - /url: "#page"
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link "E33" [ref=e11] [cursor=pointer]:
+            - /url: /
+            - img "E33" [ref=e12]
+          - navigation [ref=e15]:
+            - link "Home" [ref=e17] [cursor=pointer]:
+              - /url: /
+            - link "About" [ref=e19] [cursor=pointer]:
+              - /url: /about
+            - link "Commercial Surveillance" [ref=e21] [cursor=pointer]:
+              - /url: /commercial-surveillance
+            - link "Residential Surveillance" [ref=e23] [cursor=pointer]:
+              - /url: /residential-surveillance
+            - link "Contact" [ref=e25] [cursor=pointer]:
+              - /url: /contact
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - link "Instagram" [ref=e28] [cursor=pointer]:
+              - /url: https://www.instagram.com/e33_surveillance/?next=%2F
+              - img [ref=e29]
+            - link "Facebook" [ref=e31] [cursor=pointer]:
+              - /url: https://www.facebook.com/E33Surveillance
+              - img [ref=e32]
+            - link "LinkedIn" [ref=e34] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/e33-surveillance/posts/?feedView=all
+              - img [ref=e35]
+          - link "Book now" [ref=e38] [cursor=pointer]:
+            - /url: /appointments
+  - main [ref=e39]:
+    - article [ref=e40]:
+      - generic [ref=e54] [cursor=pointer]:
+        - button "Play" [ref=e55]:
+          - img
+          - generic [ref=e56]: Play
+        - generic:
+          - timer "Current time" [ref=e57]: 00:00
+          - timer "Duration" [ref=e58]: ⁄01:03
+          - button "Mute" [ref=e60]:
+            - img
+            - generic [ref=e61]: Mute
+          - button "Settings" [ref=e63]:
+            - img
+            - generic [ref=e64]: Settings
+          - button "Enter fullscreen" [ref=e65]:
+            - img
+            - generic [ref=e66]: Enter fullscreen
+          - generic [ref=e68]:
+            - slider "Seek" [ref=e69]: "0"
+            - progressbar [ref=e70]: "% buffered"
+            - generic: 00:00
+        - generic:
+          - generic:
+            - img
+          - generic:
+            - img
+      - generic [ref=e80]:
+        - separator [ref=e84]
+        - heading "Featured Services" [level=1] [ref=e90]:
+          - strong [ref=e91]: Featured Services
+        - generic [ref=e96]:
+          - img
+        - generic [ref=e102]:
+          - heading "24/7 Surveillance Solutions" [level=4] [ref=e105]
+          - generic:
+            - img
+        - paragraph [ref=e111]: At E33, we offer round-the-clock surveillance services to ensure the safety and security of your property, employees, and family.
+        - generic [ref=e116]:
+          - img
+        - generic [ref=e122]:
+          - heading "Background & Private Investigations" [level=4] [ref=e125]
+          - generic:
+            - img
+          - generic:
+            - img
+        - generic [ref=e130]:
+          - img
+        - paragraph [ref=e139]: With years of experience in investigative services, E33 specializes in providing discreet and thorough background checks and private investigations.
+        - generic [ref=e142]:
+          - heading "Rapid Response" [level=4] [ref=e145]
+          - generic:
+            - img
+        - paragraph [ref=e151]: When seconds matter, our Rapid Response services deliver immediate, reliable action. We mobilize fast to address criminal activity, providing a strong on-site presence that restores control and protects people and property, day or night..
+        - link "View All" [ref=e156] [cursor=pointer]:
+          - /url: /services
+      - generic [ref=e162]:
+        - separator [ref=e166]
+        - heading "Schedule Your Consultation" [level=1] [ref=e172]:
+          - strong [ref=e173]: Schedule Your Consultation
+        - generic [ref=e178]:
+          - paragraph [ref=e179]: Schedule a consultation with our specialists to explore tailored solutions for safeguarding your assets.
+          - paragraph [ref=e180]: Our experts are ready to provide detailed insights into the latest technologies and strategies for optimal protection.
+        - generic [ref=e186]:
+          - generic [ref=e187]:
+            - group "Name" [ref=e188]:
+              - generic [ref=e192]: Name
+              - generic [ref=e193]:
+                - generic [ref=e196]:
+                  - text: First Name
+                  - generic [ref=e197]: (required)
+                - textbox "First Name (required)" [ref=e198]
+              - generic [ref=e199]:
+                - generic [ref=e202]:
+                  - text: Last Name
+                  - generic [ref=e203]: (required)
+                - textbox "Last Name (required)" [ref=e204]
+            - generic [ref=e205]:
+              - generic [ref=e208] [cursor=pointer]:
+                - generic [ref=e209]: Email
+                - generic [ref=e210]: (required)
+              - textbox "Email (required)" [ref=e211]:
+                - /placeholder: ""
+            - generic [ref=e212]:
+              - generic [ref=e215]:
+                - generic [ref=e216]: Message
+                - generic [ref=e217]: (required)
+              - textbox "Message (required)" [ref=e218]:
+                - /placeholder: ""
+            - generic:
+              - textbox
+          - button "Send" [ref=e220] [cursor=pointer]
+        - separator [ref=e224]
+  - contentinfo [ref=e225]:
+    - generic [ref=e226]:
+      - generic [ref=e231]:
+        - button "View fullsize E33 Surveillance" [ref=e238] [cursor=pointer]:
+          - generic [ref=e239]: View fullsize
+          - img "E33 Surveillance" [ref=e240]
+        - generic [ref=e244]:
+          - generic [ref=e246]:
+            - heading "Location" [level=4] [ref=e247]
+            - heading "Operations Worldwide" [level=4] [ref=e248]
+          - generic:
+            - img
+        - generic [ref=e251]:
+          - generic [ref=e253]:
+            - heading "Contact" [level=4] [ref=e254]
+            - heading "balbonetti@ethirtythree.com (650) 400-2879" [level=4] [ref=e255]:
+              - text: balbonetti@ethirtythree.com
+              - text: (650) 400-2879
+          - generic:
+            - img
+      - generic:
+        - img

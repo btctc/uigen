@@ -1,0 +1,191 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e7]:
+    - generic [ref=e9]:
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - generic [ref=e17]: 
+          - generic [ref=e18]: 214-843-7498
+        - listitem [ref=e19]:
+          - link "letswork@sandersfit.com" [ref=e20] [cursor=pointer]:
+            - /url: mailto:letswork@sandersfit.com
+            - generic [ref=e22]: 
+            - generic [ref=e23]: letswork@sandersfit.com
+        - listitem [ref=e24]:
+          - generic [ref=e26]: 
+          - generic [ref=e27]: 1409 Botham Jean, Dallas Texas 75215
+      - search [ref=e32]:
+        - generic [ref=e33]:
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: 
+          - generic:
+            - generic: Search
+            - searchbox "Search Search"
+            - text: 
+      - list [ref=e40]:
+        - listitem [ref=e41]:
+          - generic [ref=e43]: 
+        - listitem [ref=e44]:
+          - generic [ref=e46]: 
+        - listitem [ref=e47]:
+          - generic [ref=e49]: 
+    - generic [ref=e51]:
+      - link "SF Logo" [ref=e56] [cursor=pointer]:
+        - /url: https://sandersfit.com
+        - img "SF Logo" [ref=e57]
+      - generic [ref=e63]:
+        - list [ref=e66]:
+          - listitem [ref=e67]:
+            - link "Rehab & Therapy" [ref=e68] [cursor=pointer]:
+              - /url: https://sfrt.sandersfit.com
+          - listitem [ref=e69]:
+            - link "Membership" [ref=e70] [cursor=pointer]:
+              - /url: https://sandersfit.com/membership/
+          - listitem [ref=e71]:
+            - link "Programs" [ref=e72] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e73]:
+            - link "Recovery" [ref=e74] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e75]:
+            - link "Trainers" [ref=e76] [cursor=pointer]:
+              - /url: "#"
+        - text:   
+      - link "Contact" [ref=e82] [cursor=pointer]:
+        - /url: https://sandersfit.com/contact/
+        - generic [ref=e83]:
+          - generic [ref=e85]: 
+          - generic [ref=e86]: Contact
+  - main [ref=e87]:
+    - generic [ref=e89]:
+      - generic [ref=e94]:
+        - heading "inspired to" [level=4] [ref=e97]
+        - heading "improve" [level=1] [ref=e100]
+      - generic [ref=e101]:
+        - img [ref=e103]
+        - generic [ref=e107]:
+          - generic [ref=e109]:
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - generic [ref=e115]:
+                  - heading "BASIC" [level=3] [ref=e116]
+                  - text: Membership with Trainer
+                - generic [ref=e117]:
+                  - generic [ref=e118]: $
+                  - generic [ref=e119]: "30"
+                  - generic [ref=e120]: per month
+                - list [ref=e121]:
+                  - listitem [ref=e122]:
+                    - generic [ref=e123]: Must be signed up with a Sandersfit Trainer
+                  - listitem [ref=e124]:
+                    - generic [ref=e125]: Does not include Personal Training Fees
+                - generic [ref=e126]:
+                  - link "Contact" [ref=e127] [cursor=pointer]:
+                    - /url: https://sandersfit.com/contact/
+                  - generic [ref=e128]: Requires 30 day notice of cancellation
+              - generic [ref=e130]: Popular
+            - generic [ref=e135]:
+              - generic [ref=e136]:
+                - heading "TIER 1" [level=3] [ref=e137]
+                - text: Membership Without Trainer
+              - generic [ref=e138]:
+                - generic [ref=e139]: $
+                - generic [ref=e140]: "99"
+                - generic [ref=e141]: per month
+              - list [ref=e142]:
+                - listitem [ref=e143]:
+                  - generic [ref=e144]: Full independent access to Sandersfit Performance Center
+                - listitem [ref=e145]:
+                  - generic [ref=e147]:
+                    - text: Normal Business Hours Only
+                    - text: Monday - Friday 6AM - 8PM
+                    - text: Saturday 8AM - 2PM
+              - generic [ref=e148]:
+                - link "Sign Up" [ref=e149] [cursor=pointer]:
+                  - /url: https://clients.mindbodyonline.com/classic/ws?studioid=540690&stype=40&prodId=118
+                - generic [ref=e150]: Requires 30 day notice of canellation
+          - generic [ref=e152]:
+            - generic [ref=e157]:
+              - generic [ref=e158]:
+                - heading "TIER 2" [level=3] [ref=e159]
+                - text: Membership Without Trainer
+              - generic [ref=e160]:
+                - generic [ref=e161]: $
+                - generic [ref=e162]: "149"
+                - generic [ref=e163]: per month
+              - list [ref=e164]:
+                - listitem [ref=e165]:
+                  - generic [ref=e166]: Full independent access to Sandersfit Performance Center
+                - listitem [ref=e167]:
+                  - generic [ref=e168]: 4x Normatec Sessions
+                - listitem [ref=e169]:
+                  - generic [ref=e170]: 4x Sauna Sessions
+                - listitem [ref=e171]:
+                  - generic [ref=e172]: 1x Red light therapy sessions
+                - listitem [ref=e173]:
+                  - generic [ref=e175]:
+                    - text: Normal Business Hours Only
+                    - text: Monday - Friday 6AM - 8PM
+                    - text: Saturday 8AM - 2PM
+              - generic [ref=e176]:
+                - link "Sign Up" [ref=e177] [cursor=pointer]:
+                  - /url: https://clients.mindbodyonline.com/classic/ws?studioid=540690&stype=40&prodId=119
+                - generic [ref=e178]: Requires 30 day notice of canellation
+            - generic [ref=e183]:
+              - generic [ref=e184]:
+                - heading "TIER 3" [level=3] [ref=e185]
+                - text: Membership Without Trainer
+              - generic [ref=e186]:
+                - generic [ref=e187]: $
+                - generic [ref=e188]: "199"
+                - generic [ref=e189]: per month
+              - list [ref=e190]:
+                - listitem [ref=e191]:
+                  - generic [ref=e192]: Full independent access to Sandersfit Performance Center
+                - listitem [ref=e193]:
+                  - generic [ref=e194]: 6x Normatec Sessions
+                - listitem [ref=e195]:
+                  - generic [ref=e196]: 4x Red light therapy sessions
+                - listitem [ref=e197]:
+                  - generic [ref=e198]: Unlimited Sauna Sessions
+                - listitem [ref=e199]:
+                  - generic [ref=e201]:
+                    - text: Normal Business Hours Only
+                    - text: Monday - Friday 6AM - 8PM
+                    - text: Saturday 8AM - 2PM
+              - generic [ref=e202]:
+                - link "Sign Up" [ref=e203] [cursor=pointer]:
+                  - /url: https://clients.mindbodyonline.com/classic/ws?studioid=540690&stype=40&prodId=120
+                - generic [ref=e204]: Requires 30 day notice of canellation
+  - generic [ref=e205]:
+    - generic [ref=e209]:
+      - heading "sandersfit performance center" [level=6] [ref=e212]
+      - heading "let's win today" [level=3] [ref=e215]
+      - link "BOOK AN APPOINTMENT ⟶" [ref=e219] [cursor=pointer]:
+        - /url: https://sandersfit.com/contact/
+        - generic [ref=e221]: BOOK AN APPOINTMENT ⟶
+    - contentinfo [ref=e225]:
+      - generic [ref=e226]:
+        - generic [ref=e228]:
+          - heading "Visit Us" [level=4] [ref=e231]
+          - paragraph [ref=e234]:
+            - text: 1409 Botham Jean
+            - text: Dallas, TX. 75215
+            - text: 214-843-7498
+          - paragraph [ref=e237]: Sandersfit Performance Center is located in the basement of the SouthSide on Lamar Building.
+        - generic [ref=e239]:
+          - heading "HOURS" [level=4] [ref=e242]
+          - paragraph [ref=e245]:
+            - strong [ref=e246]: Monday – Friday
+            - text: 06:00 am – 08:00 pm
+            - strong [ref=e247]: Saturday
+            - text: 06:00 am – 12:00 pm
+            - strong [ref=e248]: Sunday
+            - text: By Appointment
+        - heading "Appointments" [level=4] [ref=e253]
+        - link "sandersfit logo" [ref=e258] [cursor=pointer]:
+          - /url: https://sandersfit.com
+          - img "sandersfit logo" [ref=e259]
+    - paragraph [ref=e266]: © SandersFit Performance Center, All Rights Reserved
+  - generic [ref=e267]: desktop

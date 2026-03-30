@@ -1,0 +1,244 @@
+- generic [ref=e2]:
+  - alert [ref=e3]: Sandersfit Rehab & Therapy | Comprehensive Physical Therapy in Dallas-Fort Worth
+  - generic [ref=e6]:
+    - generic: 
+    - generic [ref=e8]:
+      - generic [ref=e12]:
+        - generic [ref=e16]:
+          - img "Brand Logo" [ref=e23] [cursor=pointer]
+          - generic [ref=e24]:
+            - text: 
+            - list [ref=e25]:
+              - listitem [ref=e26]:
+                - link "HOME" [ref=e27] [cursor=pointer]:
+                  - /url: https://sfrt.sandersfit.com/home
+              - listitem [ref=e28]:
+                - link "ABOUT US" [ref=e29] [cursor=pointer]:
+                  - /url: https://sfrt.sandersfit.com/about-us
+              - listitem [ref=e30]:
+                - link "LOCATIONS" [ref=e31] [cursor=pointer]:
+                  - /url: https://sfrt.sandersfit.com/about-us
+                - list [ref=e32]:
+                  - listitem [ref=e33]:
+                    - link "AMARILLO" [ref=e34] [cursor=pointer]:
+                      - /url: https://sfrt.sandersfit.com/inner-page-2406-800639
+                  - listitem [ref=e35]:
+                    - link "DOWNTOWN DALLAS" [ref=e36] [cursor=pointer]:
+                      - /url: https://sfrt.sandersfit.com/inner-page-2406
+                  - listitem [ref=e37]:
+                    - link "FORT WORTH" [ref=e38] [cursor=pointer]:
+                      - /url: https://sfrt.sandersfit.com/inner-page-2406-7109
+                  - listitem [ref=e39]:
+                    - link "FRISCO" [ref=e40] [cursor=pointer]:
+                      - /url: https://sfrt.sandersfit.com/inner-page-2406-7109-5845
+                  - listitem [ref=e41]:
+                    - link "MIDLOTHIAN" [ref=e42] [cursor=pointer]:
+                      - /url: https://sfrt.sandersfit.com/inner-page-2406-7109-5845-9788
+                  - listitem [ref=e43]:
+                    - link "SOUTHLAKE AREA (NEW LOCATION!)" [ref=e44] [cursor=pointer]:
+                      - /url: https://sfrt.sandersfit.com/inner-page-2406-8152
+              - listitem [ref=e45]:
+                - link "SERVICES" [ref=e46] [cursor=pointer]:
+                  - /url: https://sfrt.sandersfit.com/services
+              - listitem [ref=e47]:
+                - link "OUR TEAM" [ref=e48] [cursor=pointer]:
+                  - /url: https://sfrt.sandersfit.com/our-team
+              - listitem [ref=e49]:
+                - link "CONTACT US" [ref=e50] [cursor=pointer]:
+                  - /url: https://sfrt.sandersfit.com/contact
+        - link "CONTACT US TO BOOK" [ref=e54] [cursor=pointer]:
+          - /url: https://sfrt.sandersfit.com/contact
+          - generic [ref=e56]: CONTACT US TO BOOK
+      - generic [ref=e62]:
+        - heading "IT'S JUST WORK" [level=1] [ref=e66]:
+          - strong [ref=e67]: IT'S JUST WORK
+        - paragraph [ref=e71]: "Our physical therapy is individualized to you as an athlete, catering to your specific needs and goals. Available therapeutic techniques include: manual therapy, exercise prescription, blood flow restriction training, functional movement modification, dry needling, and a vast number of other research-driven techniques designed to best satisfy demands of your lifestyle and sport."
+        - link "CONTACT US TO BOOK" [ref=e73] [cursor=pointer]:
+          - /url: https://sfrt.sandersfit.com/contact
+          - generic [ref=e75]: CONTACT US TO BOOK
+      - generic [ref=e80]:
+        - generic [ref=e84]:
+          - paragraph [ref=e88]:
+            - strong [ref=e89]: SPORTS REHABILITATION SERVICES
+          - generic [ref=e92]:
+            - paragraph [ref=e93]: Elevating physical therapy and rehabilitation
+            - paragraph [ref=e94]: with specialized treatments and expertise.
+        - generic [ref=e98]:
+          - heading "Post-Operative Rehabilitation" [level=3] [ref=e102]:
+            - strong [ref=e103]: Post-Operative Rehabilitation
+          - generic [ref=e106]:
+            - paragraph [ref=e107]: "Post-operative sports rehabilitation focuses on restoring function and performance after surgery. The process typically involves several key phases:"
+            - paragraph [ref=e108]
+            - paragraph [ref=e109]:
+              - strong [ref=e110]: Immediate Recovery
+              - text: ": This begins right after surgery, emphasizing pain management, swelling control, and early mobility. Gentle range-of-motion exercises may be introduced."
+            - paragraph [ref=e111]
+            - paragraph [ref=e112]:
+              - strong [ref=e113]: Strengthening and Stability
+              - text: ": As healing progresses, the focus shifts to building strength in the affected area. This may include resistance training and stability exercises to support joint function."
+            - paragraph [ref=e114]
+            - paragraph [ref=e115]:
+              - strong [ref=e116]: Functional Training
+              - text: ": This phase involves sport-specific movements to regain confidence and prepare the body for the demands of the sport. Drills and activities mimic the movements required in the athlete’s sport."
+            - paragraph [ref=e117]
+            - paragraph [ref=e118]:
+              - strong [ref=e119]: Return to Sport
+              - text: ": Finally, athletes gradually return to their sport under professional guidance. This phase includes monitoring for any pain or issues and ensuring the athlete can perform safely and effectively."
+        - generic [ref=e137]:
+          - heading "Conservative-Care Rehabilitation" [level=3] [ref=e141]:
+            - strong [ref=e142]: Conservative-Care Rehabilitation
+          - generic [ref=e145]:
+            - paragraph [ref=e146]: "Conservative care physical therapy focuses on non-surgical approaches to manage and treat musculoskeletal conditions. Key components include:"
+            - paragraph [ref=e147]
+            - paragraph [ref=e148]:
+              - strong [ref=e149]: Assessment
+              - text: ": A thorough evaluation of the patient's condition to identify issues and develop a personalized treatment plan."
+            - paragraph [ref=e150]
+            - paragraph [ref=e151]:
+              - strong [ref=e152]: "Pain Management:"
+              - text: Techniques such as modalities (heat, ice, ultrasound) and manual therapy to reduce pain and inflammation.
+            - paragraph [ref=e153]
+            - paragraph [ref=e154]:
+              - strong [ref=e155]: Customized Exercise Program
+              - text: ": Tailored exercise programs aimed at improving strength, flexibility, and function, helping patients regain mobility and prevent further injury."
+            - paragraph [ref=e156]
+            - paragraph [ref=e157]:
+              - strong [ref=e158]: "Functional Training:"
+              - text: Activities that focus on improving daily living skills and sport-specific movements to enhance overall performance and quality of life.
+            - paragraph [ref=e159]
+            - paragraph [ref=e160]: Overall, the goal is to restore function, reduce pain, and improve the patient’s ability to engage in daily activities without surgery.
+        - generic [ref=e164]:
+          - heading "Bridge Program" [level=3] [ref=e168]:
+            - strong [ref=e169]: Bridge Program
+          - paragraph [ref=e173]: In-house, sport-specific, strength and conditioning for our athletes transitioning from rehab to return to playing sports. Allowing our patients to receive higher-level strength and conditioning within, and in-accordance with physician and therapist-prescribed precautions. Featuring collaboration between our Doctors of Physical Therapy and Certified Strength and Conditioning Specialists, including Melvin Sanders and AJ Billings.
+        - generic [ref=e184]:
+          - heading "Recovery" [level=3] [ref=e188]:
+            - strong [ref=e189]: Recovery
+          - generic [ref=e192]:
+            - paragraph [ref=e193]
+            - heading "Recovery sessions utilize state-of-the-art and old school equipment to advance wellness, improve training, reduce inflammation and soreness, and maximize overall performance." [level=3] [ref=e194]
+            - paragraph [ref=e195]
+      - generic [ref=e204]:
+        - heading "Our Doctors" [level=1] [ref=e212]:
+          - strong [ref=e213]: Our Doctors
+        - generic [ref=e215]:
+          - generic [ref=e217]:
+            - heading "Dr. Ashley Reichert, PT, DPT" [level=2] [ref=e226]
+            - generic [ref=e229]:
+              - paragraph [ref=e230]: Dr. Ashley Rechert has rehabbed over 100 D1, and over 100 professional athletes with a focus in NFL and NBA players. She has published works regarding landing mechanics in D1 athletes (Texas Health Sports Medicine) and Femoracetabular Impingement Syndrome (Duke University), as well as participated in data collection post- ACL-Reconstruction (Texas Health Sports Medicine).
+              - paragraph [ref=e231]: She is an alumni of Texas Health Sports Medicine's Sports Physical Therapy Residency Program (2021), where she gained experience in the care of post-operative and long-term rehabilitation for Texas Christian University's student athletes. She graduated from Duke University with her Doctorate of Physical Therapy in 2020, and graduated magna cum laude and as an Academic-All American from The University of South Carolina in 2017.
+              - paragraph [ref=e232]: Dr. Reichert sees clients in Dallas.
+              - paragraph [ref=e233]
+              - paragraph [ref=e234]
+          - generic [ref=e236]:
+            - heading "Dr. Mike Macko, PT, DPT, OCS, MTC" [level=2] [ref=e245]
+            - generic [ref=e248]:
+              - paragraph [ref=e249]: Dr. Mike Macko earned a movement science degree from Texas Christian University, his Master’s degree in Physical Therapy from the Institute of Physical Therapy, and his Doctorate in Physical Therapy from the University of St Augustine. Dr. Macko was a baseball scholarship athlete at McLennan Community College and Texas Christian University.He spent 25 years with Texas Health Resources as a physical therapist, clinical director for sports medicine, and mentor to numerous sports physical therapists and athletic trainers in the residency program before joining SandersFit Rehab & Therapy .Dr. Macko sees clients in Fort Worth.
+              - paragraph [ref=e250]: Dr. Macko sees clients in Ft. Worth.
+              - paragraph [ref=e251]
+              - paragraph [ref=e252]
+              - paragraph [ref=e253]
+              - paragraph [ref=e254]
+              - paragraph [ref=e255]
+          - generic [ref=e257]:
+            - heading "Dr. Khalil Nanji, PT, DPT" [level=2] [ref=e266]
+            - generic [ref=e269]:
+              - paragraph [ref=e270]: Dr. Khalil Nanji earned his Bachelor's of Science in Corporate Communications from the University of Texas at Austin and his Doctorate in Physical Therapy from the University of St. Augustine of Health Sciences. Dr. Nanji has extensive experience treating orthopedic and sports-related injuries across a wide range of patients, including youth, collegiate, and professional athletes. He has worked closely with some of Dallas’ premier orthopedic surgeons and has observed numerous surgical procedures to better understand the continuum of care from surgery to return-to-sport rehabilitation. His clinical focus includes both upper and lower extremity injuries, where he integrates strength and performance-based principles into the recovery process.
+              - paragraph [ref=e271]: Dr. Nanji sees clients in Dallas.
+              - paragraph [ref=e272]
+              - paragraph [ref=e273]
+              - paragraph [ref=e274]
+          - generic [ref=e276]:
+            - heading "Dr. Reed Brannon, PT, DPT" [level=2] [ref=e285]
+            - generic [ref=e288]:
+              - paragraph [ref=e289]: Dr. Reed Brannon earned his undergraduate degree from Texas Tech University majoring in Kinesiology and minoring in sports management before earning his Doctorate of Physical Therapy from Texas Tech University Health Science Center. Before his start at SandersFit Rehab and Therapy, Dr. Brannon was at Amarillo Bone and Joint, where he had the opportunity to work with high level adults and athletes at every level with an extensive focus on post-operative knee, shoulder, and ankle rehabilitation. In joining SandersFit, Dr. Brannon is committed to helping athletes and adults achieve peak performance, rehabilitate from injuries, and help post-operative patients return to what they love to do after surgery.
+              - paragraph [ref=e290]: Dr. Brannon sees clients in Amarillo.
+              - paragraph [ref=e291]
+              - paragraph [ref=e292]
+              - paragraph [ref=e293]
+        - generic [ref=e295]:
+          - generic [ref=e297]:
+            - heading "Dr. Joshua Hong, PT, DPT" [level=2] [ref=e306]
+            - generic [ref=e309]:
+              - paragraph [ref=e310]: Dr. Joshua Hong, earned his degree in Health Science Studies from Baylor University and his Doctorate of Physical Therapy at Texas State University. Dr. Hong has experience working with various high level athletes, including a large concentration of post-operative baseball players and patients following ACL-reconstruction. He worked closely with the team physicians for the Texas Rangers and Dallas Stars while working at TMI Sports Medicine in Frisco, TX prior to joining the SandersFit Rehab + Therapy team.
+              - paragraph [ref=e311]: Dr. Hong sees clients in Frisco.
+              - paragraph [ref=e312]
+              - paragraph [ref=e313]
+              - paragraph [ref=e314]
+              - paragraph [ref=e315]
+              - paragraph [ref=e316]
+              - paragraph [ref=e317]
+              - paragraph [ref=e318]
+              - paragraph [ref=e319]
+              - paragraph [ref=e320]
+              - paragraph [ref=e321]
+          - generic [ref=e323]:
+            - heading "Dr. Kyra Shaw, PT, DPT, ATC" [level=2] [ref=e332]
+            - generic [ref=e335]:
+              - paragraph [ref=e336]: Dr. Kyra Shaw, a Dallas native, earned her undergraduate degree in Athletic Training from the University of Miami, a masters degree in Sport Management from Florida State University, and a Doctorate of Physical Therapy from Howard University. Dr. Shaw has extensive experience working with athletes at all levels—high school, collegiate, and professional. Prior to joining Sanders Fit and Therapy, she served as a sports medicine associate for the Oklahoma City Thunder, where she honed her skills in sports medicine and athlete rehabilitation. Excited to join the SandersFit and Therapy team, Dr. Shaw is committed to helping athletes achieve their peak performance and recover from injuries.
+              - paragraph [ref=e337]: Dr. Shaw sees clients in Dallas.
+              - paragraph [ref=e338]
+              - paragraph [ref=e339]
+              - paragraph [ref=e340]
+              - paragraph [ref=e341]
+          - generic [ref=e343]:
+            - heading "Dr. Tyler Heath, PT, DPT" [level=2] [ref=e352]
+            - generic [ref=e355]:
+              - paragraph [ref=e356]: Tyler Heath, PT, DPT, earned his undergraduate degree in Kinesiology from Abilene Christian University before completing his Doctorate of Physical Therapy at University of Mary Hardin–Baylor. Prior to joining SFRT, Dr. Heath completed a sports-focused rotation at Texas Metroplex Institute, where he treated a large volume of throwing athletes and orthopedic patients, with a strong emphasis on shoulder health, throwing mechanics, and performance-based return-to-sport rehab. Dr. Heath also trained under several well-known orthopedic physicians within the Memorial Hermann system, where he worked extensively with post-op knee patients, treating individuals following ACL reconstruction at a facility associated with The Knee Institute.
+              - paragraph [ref=e357]: Dr. Heath sees patients in Midlothian and Fort Worth.
+          - generic [ref=e359]:
+            - heading "Dr. Mahalah Callicoat, PT, DPT" [level=2] [ref=e368]
+            - generic [ref=e371]:
+              - paragraph [ref=e372]: Dr. Mahalah Callicoat earned her degree in Kinesiology from Texas A&M University-Commerce and her Doctorate of Physical Therapy at UT Health San Antonio. Dr. Callicoat has experience working with various high level athletes and post-surgical patients such as ACL reconstruction. She worked closely with the orthopedic surgeons and physicians while developing individualized care plans for their patients. She gained clinical experience treating athletes at Texas Metroplex Institute and assisting with the athletic training program at University of Texas at San Antonio during a clinical rotation.
+              - paragraph [ref=e373]: Dr. Callicoat sees patients in Southlake.
+              - paragraph [ref=e374]
+              - paragraph [ref=e375]
+              - paragraph [ref=e376]
+              - paragraph [ref=e377]
+              - paragraph [ref=e378]
+              - paragraph [ref=e379]
+              - paragraph [ref=e380]
+      - generic [ref=e382]:
+        - paragraph [ref=e390]: See What Our Clients Say About Us
+        - generic [ref=e392]:
+          - generic [ref=e394]:
+            - heading "Trisha W." [level=4] [ref=e403]:
+              - strong [ref=e404]: Trisha W.
+            - paragraph [ref=e408]: I've been working with Dr. Ashley for 6 months now on post ACL-R rehab, and when I tell you she's the best, she's the best! The progress in my mobility and strength of my knee/quad is far better than I expected. I lost quite a bit of muscle on my quad from surgery, and I'm amazed at how far I have come in such little time. I have been to other PT practices before, and SandersFit is the best by a long shot. You are in good hands here! Not only is Dr. Ashley great, but so is everyone on her staff. Bri makes it so easy to schedule and is super quick and responsive. I could not recommend the SandersFit team more!
+          - generic [ref=e410]:
+            - heading "Ryan S." [level=4] [ref=e419]:
+              - strong [ref=e420]: Ryan S.
+            - generic [ref=e423]:
+              - paragraph [ref=e424]: Dr. Macko is the most expert PT I’ve ever met. No exaggeration! I broke my hip in September of 2023 and couldn’t walk for 3 months. I spent 5 months working with him and saw him 20 times, the most my insurance would allow.
+              - paragraph [ref=e425]
+              - paragraph [ref=e426]: What I immediately noticed is that he knew anatomy like he was a human textbook. Any little complaint or struggle I had was met with “I think this is why, and here’s how we can adjust to fix that.” And his adjustments always targeted the difficulty as desired.
+              - paragraph [ref=e427]
+              - paragraph [ref=e428]: He’s super friendly, and I could tell he actually cared about my life and my recovery.
+              - paragraph [ref=e429]
+              - paragraph [ref=e430]: Now I’m a year post-injury and I can run and ride at 90% strength and I am getting stronger every day. If I ever need PT, and I hope not obviously, but I will definitely be back.
+          - generic [ref=e432]:
+            - heading "Heidi T." [level=4] [ref=e441]:
+              - strong [ref=e442]: Heidi T.
+            - paragraph [ref=e446]: Our 15-year-old daughter has been attending SandersFit for a couple months now (following an intense knee surgery), and we could NOT be more grateful!!! Their innovative techniques combined with their high energy, dedication, and extensive experience have made every single session encouraging, motivating and fun!! The results we have seen in these two months have blown us away and given us great confidence in her path forward to full recovery!! What a gift to have such an awesome rehab location available, it is truly unlike anywhere we’ve attended in the past.
+      - generic [ref=e450]:
+        - generic [ref=e460]:
+          - link "Instagram" [ref=e461] [cursor=pointer]:
+            - /url: https://www.instagram.com/sandersfitrehabandtherapy/
+            - img "social media icon" [ref=e462]
+          - link "TikTok" [ref=e463] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@sandersfitrt?_t=ZT-8s9oiaN3bVy&_r=1
+            - img "social media icon" [ref=e464]
+        - generic [ref=e466]:
+          - heading "Contact Us" [level=5] [ref=e470]:
+            - strong [ref=e471]: Contact Us
+          - paragraph [ref=e475]: sfrtfrontdesk@sandersfit.com
+          - paragraph [ref=e479]: 817.271.9022
+        - generic [ref=e481]:
+          - heading "Locations" [level=5] [ref=e485]:
+            - strong [ref=e486]: Locations
+          - paragraph [ref=e490]: 1409 Botham Jean Blvd, Dallas, TX 75215
+          - paragraph [ref=e494]: 1301 N. Western St, Amarillo, TX 79124
+          - paragraph [ref=e498]: 1901 John McCain Rd, Ste E, Colleyville, TX 76034
+          - paragraph [ref=e502]: 3800 Southwest Blvd, Ft. Worth, TX 76116
+          - paragraph [ref=e506]: 2601 Avenue of the Stars, Frisco, TX 75034
+          - paragraph [ref=e510]: 301 W. Main St., Midlothian, TX 76065

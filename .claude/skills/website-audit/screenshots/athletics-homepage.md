@@ -1,0 +1,103 @@
+- generic [ref=e3]:
+  - link "Skip to content" [ref=e4] [cursor=pointer]:
+    - /url: "#container"
+  - banner [ref=e5]:
+    - generic [ref=e9]:
+      - link "Return to Home Western Heights High School" [ref=e11] [cursor=pointer]:
+        - /url: /o/hs
+        - img "Return to Home" [ref=e13]
+        - heading "Western Heights High School" [level=1] [ref=e16]
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - button "Open menu" [ref=e20] [cursor=pointer]:
+            - generic [ref=e21]:
+              - img [ref=e22]
+              - generic [ref=e26]: Menu
+          - button "Schools" [ref=e28] [cursor=pointer]:
+            - generic [ref=e29]:
+              - generic [ref=e30]: Schools
+              - img [ref=e31]
+        - generic [ref=e34]:
+          - button "Translate Site" [ref=e36] [cursor=pointer]:
+            - generic [ref=e37]:
+              - generic [ref=e38]: Translate
+              - img [ref=e39]
+          - button "Search site" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]:
+              - img [ref=e44]
+              - generic [ref=e47]: Search site
+  - main [ref=e48]:
+    - generic [ref=e49]:
+      - navigation "breadcrumb" [ref=e50]:
+        - list [ref=e51]:
+          - listitem [ref=e52]:
+            - link "Western Heights High School" [ref=e53] [cursor=pointer]:
+              - /url: /o/hs/
+          - listitem [ref=e54]:
+            - text: //
+            - link "Athletics" [ref=e55] [cursor=pointer]:
+              - /url: /o/hs/athletics
+      - button "Select Sports" [ref=e58]
+  - contentinfo [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - heading "Find Us" [level=2] [ref=e66]
+        - paragraph [ref=e67]:
+          - generic [ref=e68]: Western Heights High School
+          - generic [ref=e69]: 8201 SW 44TH Street
+          - generic [ref=e70]: Oklahoma City, OK 73179
+          - generic [ref=e71]:
+            - text: "Phone:"
+            - link "405-350-3435" [ref=e72] [cursor=pointer]:
+              - /url: tel:405-350-3435
+          - generic [ref=e73]:
+            - text: "Fax:"
+            - link "405-213-0394" [ref=e74] [cursor=pointer]:
+              - /url: tel:405-213-0394
+          - generic [ref=e75]: communication@whisd.org
+        - list
+      - generic [ref=e76]:
+        - heading "Schools" [level=2] [ref=e77]
+        - list [ref=e78]:
+          - listitem [ref=e79]:
+            - link "Western Heights School District" [ref=e80] [cursor=pointer]:
+              - /url: https://www.westernheights.k12.ok.us
+          - listitem [ref=e81]:
+            - link "Bridgestone Intermediate School" [ref=e82] [cursor=pointer]:
+              - /url: https://bs.westernheights.k12.ok.us/o/bs
+          - listitem [ref=e83]:
+            - link "Council Grove Elementary School" [ref=e84] [cursor=pointer]:
+              - /url: https://cg.westernheights.k12.ok.us/o/cg
+          - listitem [ref=e85]:
+            - link "Greenvale Elementary School" [ref=e86] [cursor=pointer]:
+              - /url: https://gv.westernheights.k12.ok.us/o/gv
+          - listitem [ref=e87]:
+            - link "Western Heights High School" [ref=e88] [cursor=pointer]:
+              - /url: https://hs.westernheights.k12.ok.us/o/hs
+          - listitem [ref=e89]:
+            - link "John Glenn Elementary School" [ref=e90] [cursor=pointer]:
+              - /url: https://jg.westernheights.k12.ok.us/o/jg
+          - listitem [ref=e91]:
+            - link "Western Heights Middle School" [ref=e92] [cursor=pointer]:
+              - /url: https://ms.westernheights.k12.ok.us/o/ms
+          - listitem [ref=e93]:
+            - link "Winds West Elementary" [ref=e94] [cursor=pointer]:
+              - /url: https://ww.westernheights.k12.ok.us/o/ww
+        - list
+      - generic [ref=e95]:
+        - heading "Stay Connected" [level=2] [ref=e96]
+        - link "Download our iOS App" [ref=e97] [cursor=pointer]:
+          - /url: https://aptg.co/1zn83S
+          - img "Download our iOS App" [ref=e98]
+        - link "Download our Android App" [ref=e99] [cursor=pointer]:
+          - /url: https://aptg.co/pqJdtN
+          - img "Download our Android App" [ref=e100]
+        - list
+    - generic [ref=e101]:
+      - generic [ref=e102]: Copyright © 2026 Western Heights School District. All rights reserved.
+      - generic [ref=e103]:
+        - text: Powered By
+        - link "Apptegy Visit us to learn more" [ref=e104] [cursor=pointer]:
+          - /url: https://www.apptegy.com
+          - text: Apptegy
+          - generic [ref=e105]: Visit us to learn more

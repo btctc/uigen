@@ -1,0 +1,176 @@
+- generic [ref=e3]:
+  - link "Skip to content" [ref=e4] [cursor=pointer]:
+    - /url: "#container"
+  - banner [ref=e5]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "IC Parent Portal" [ref=e11] [cursor=pointer]:
+            - /url: https://westernheightsok.infinitecampus.org/campus/portal/westernheights.jsp
+          - link "Employee Resources" [ref=e12] [cursor=pointer]:
+            - /url: https://www.westernheights.k12.ok.us/page/employee-resources
+          - link "Employment" [ref=e13] [cursor=pointer]:
+            - /url: https://westernheights.schoolspring.com/
+          - link "Enrollment" [ref=e14] [cursor=pointer]:
+            - /url: https://www.westernheights.k12.ok.us/page/enrollment
+        - button "Search site" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]:
+            - img [ref=e17]
+            - generic [ref=e20]: Search site
+      - generic [ref=e21]:
+        - link "Return to Home Western Heights School District" [ref=e23] [cursor=pointer]:
+          - /url: /
+          - img "Return to Home" [ref=e25]
+          - heading "Western Heights School District" [level=1] [ref=e28]
+        - generic [ref=e30]:
+          - button "Open menu" [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]:
+              - img [ref=e34]
+              - generic [ref=e38]: Menu
+          - button "Schools" [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]:
+              - generic [ref=e42]: Schools
+              - img [ref=e43]
+          - button "Translate Site" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]:
+              - generic [ref=e49]: Translate
+              - img [ref=e50]
+  - main [ref=e53]:
+    - generic [ref=e54]:
+      - navigation "breadcrumb" [ref=e55]:
+        - list [ref=e108]:
+          - listitem [ref=e109]:
+            - link "Western Heights School District" [ref=e110] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e111]: // Departments
+          - listitem [ref=e112]:
+            - text: //
+            - link "Athletics" [ref=e113] [cursor=pointer]:
+              - /url: /page/athletics-copy
+      - generic [ref=e123]:
+        - generic [ref=e127]:
+          - heading "Sports" [level=2] [ref=e147]:
+            - button "Sports" [ref=e148] [cursor=pointer]:
+              - generic [ref=e149]: Sports
+              - img [ref=e151]
+          - heading "Inside Athletics" [level=2] [ref=e172]:
+            - button "Inside Athletics" [ref=e173] [cursor=pointer]:
+              - generic [ref=e174]: Inside Athletics
+              - img [ref=e176]
+          - heading "Game Day" [level=2] [ref=e197]:
+            - button "Game Day" [ref=e198] [cursor=pointer]:
+              - generic [ref=e199]: Game Day
+              - img [ref=e201]
+          - heading "Coaches" [level=2] [ref=e222]:
+            - button "Coaches" [ref=e223] [cursor=pointer]:
+              - generic [ref=e224]: Coaches
+              - img [ref=e226]
+        - generic [ref=e234]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=1]
+          - generic [ref=e239]:
+            - button "Pause slider" [ref=e240] [cursor=pointer]:
+              - img [ref=e241]
+            - generic:
+              - button "Move slider to the left" [ref=e243]:
+                - img [ref=e244]
+              - button "Move slider to the right" [ref=e246]:
+                - img [ref=e247]
+            - img "Apparel Store" [ref=e249] [cursor=pointer]
+            - list [ref=e251]:
+              - button "Image Home Default is 1 of 3" [ref=e252]
+              - button "Image Tickets is 2 of 3" [ref=e254]
+              - button "Image Apparel Store is 3 of 3 (selected)" [ref=e256]
+          - heading "Upcoming Events" [level=1] [ref=e268]
+          - figure [ref=e275]:
+            - img "Sports" [ref=e276]
+        - generic [ref=e293]:
+          - generic [ref=e298]:
+            - heading "Terry Long Jr." [level=1] [ref=e299]
+            - heading "WHPS Athletic Director" [level=4] [ref=e300]
+          - figure [ref=e307]:
+            - img "Terry" [ref=e308]
+          - generic [ref=e313]:
+            - paragraph [ref=e314]: Dear Students, Parents, and Community Members,
+            - paragraph [ref=e315]: Welcome to the 2024-2025 school year at Western Heights!
+            - paragraph [ref=e316]: As we embark on another exciting year, we are thrilled to have you as part of our vibrant community where academics and athletics work hand in hand to develop well-rounded individuals.
+            - paragraph [ref=e317]: At Western Heights, we believe that athletics is more than just competition—it's an integral part of education that fosters teamwork, discipline, leadership, and resilience. Our athletic programs are designed to inspire students to achieve their personal best both on and off the court/field. Whether you’re a seasoned athlete or new to the game, our coaches and staff are dedicated to helping each student reach their full potential.
+            - paragraph [ref=e318]: This year, we’re excited to offer a wide range of sports and activities that cater to all interests and skill levels. From traditional team sports like football and basketball to individual pursuits such as track and field, there’s something for everyone. Our programs are built on the principles of respect, hard work, and sportsmanship. We strive to create a positive and inclusive environment for all participants.
+            - paragraph [ref=e319]: Parents and community members, your support is vital to the success of our athletic programs. We encourage you to attend games, volunteer, and be active participants in our school’s athletic community. Your involvement not only boosts school spirit but also helps to build a strong foundation for our students' success.
+            - paragraph [ref=e320]: To our student-athletes, we are proud of your commitment and dedication. We know that balancing academics and athletics is no easy task, but we are here to support you every step of the way. Remember, the lessons you learn in sports—perseverance, teamwork, and the pursuit of excellence—will serve you well throughout your life.
+            - paragraph [ref=e321]: Thank you for being a part of the Western Heights Jets family. Let’s make this year one of growth, achievement, and unforgettable memories both in the classroom and on the playing fields.
+            - paragraph [ref=e322]: Here’s to a fantastic year ahead!
+            - paragraph [ref=e323]: Go JETS!
+            - paragraph [ref=e324]: Terry J Long
+            - paragraph [ref=e325]: tjlongjr@whisd.org
+  - contentinfo [ref=e60]:
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - heading "Find Us" [level=2] [ref=e64]
+        - paragraph [ref=e65]:
+          - generic [ref=e66]: Western Heights School District
+          - generic [ref=e67]: 8401 SW 44th St
+          - generic [ref=e68]: Oklahoma City, OK 73179
+          - generic [ref=e69]:
+            - text: "P:"
+            - link "(405) 350-3410" [ref=e70] [cursor=pointer]:
+              - /url: tel:(405) 350-3410
+          - generic [ref=e71]:
+            - text: "F:"
+            - link "405-212-5594" [ref=e72] [cursor=pointer]:
+              - /url: tel:405-212-5594
+          - generic [ref=e73]: communication@whisd.org
+        - list
+      - generic [ref=e74]:
+        - heading "Schools" [level=2] [ref=e75]
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "Western Heights School District" [ref=e78] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e79]:
+            - link "Bridgestone Intermediate School" [ref=e80] [cursor=pointer]:
+              - /url: /o/bs
+          - listitem [ref=e81]:
+            - link "Council Grove Elementary School" [ref=e82] [cursor=pointer]:
+              - /url: /o/cg
+          - listitem [ref=e83]:
+            - link "Greenvale Elementary School" [ref=e84] [cursor=pointer]:
+              - /url: /o/gv
+          - listitem [ref=e85]:
+            - link "Western Heights High School" [ref=e86] [cursor=pointer]:
+              - /url: /o/hs
+          - listitem [ref=e87]:
+            - link "John Glenn Elementary School" [ref=e88] [cursor=pointer]:
+              - /url: /o/jg
+          - listitem [ref=e89]:
+            - link "Western Heights Middle School" [ref=e90] [cursor=pointer]:
+              - /url: /o/ms
+          - listitem [ref=e91]:
+            - link "Winds West Elementary" [ref=e92] [cursor=pointer]:
+              - /url: /o/ww
+        - list
+      - generic [ref=e93]:
+        - heading "Stay Connected" [level=2] [ref=e94]
+        - link "Download our iOS App" [ref=e95] [cursor=pointer]:
+          - /url: https://aptg.co/1zn83S
+          - img "Download our iOS App" [ref=e96]
+        - link "Download our Android App" [ref=e97] [cursor=pointer]:
+          - /url: https://aptg.co/pqJdtN
+          - img "Download our Android App" [ref=e98]
+        - list [ref=e99]:
+          - listitem [ref=e100]:
+            - link "Visit us on Facebook" [ref=e101] [cursor=pointer]:
+              - /url: https://www.facebook.com/whisd
+              - img "Visit us on Facebook" [ref=e102]
+    - generic [ref=e103]:
+      - generic [ref=e104]: Copyright © 2026 Western Heights School District. All rights reserved.
+      - generic [ref=e105]:
+        - text: Powered By
+        - link "Apptegy Visit us to learn more" [ref=e106] [cursor=pointer]:
+          - /url: https://www.apptegy.com
+          - text: Apptegy
+          - generic [ref=e107]: Visit us to learn more

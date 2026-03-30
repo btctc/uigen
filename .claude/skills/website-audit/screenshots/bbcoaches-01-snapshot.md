@@ -1,0 +1,125 @@
+- generic [ref=e3]:
+  - link "Skip to content" [ref=e4] [cursor=pointer]:
+    - /url: "#container"
+  - banner [ref=e5]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "IC Parent Portal" [ref=e11] [cursor=pointer]:
+            - /url: https://westernheightsok.infinitecampus.org/campus/portal/westernheights.jsp
+          - link "Employee Resources" [ref=e12] [cursor=pointer]:
+            - /url: https://www.westernheights.k12.ok.us/page/employee-resources
+          - link "Employment" [ref=e13] [cursor=pointer]:
+            - /url: https://westernheights.schoolspring.com/
+          - link "Enrollment" [ref=e14] [cursor=pointer]:
+            - /url: https://www.westernheights.k12.ok.us/page/enrollment
+        - button "Search site" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]:
+            - img [ref=e17]
+            - generic [ref=e20]: Search site
+      - generic [ref=e21]:
+        - link "Return to Home Western Heights School District" [ref=e23] [cursor=pointer]:
+          - /url: /
+          - img "Return to Home" [ref=e25]
+          - heading "Western Heights School District" [level=1] [ref=e28]
+        - generic [ref=e30]:
+          - button "Open menu" [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]:
+              - img [ref=e34]
+              - generic [ref=e38]: Menu
+          - button "Schools" [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]:
+              - generic [ref=e42]: Schools
+              - img [ref=e43]
+          - button "Translate Site" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]:
+              - generic [ref=e49]: Translate
+              - img [ref=e50]
+  - main [ref=e53]:
+    - generic [ref=e54]:
+      - navigation "breadcrumb" [ref=e55]:
+        - list [ref=e108]:
+          - listitem [ref=e109]:
+            - link "Western Heights School District" [ref=e110] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e111]:
+            - text: //
+            - link "Boys Basketball Coaches" [ref=e112] [cursor=pointer]:
+              - /url: /page/boys-basketball-coaches
+      - generic [ref=e122]:
+        - generic [ref=e129]:
+          - figure [ref=e136]:
+            - img "Coach" [ref=e137]
+          - figure [ref=e144]:
+            - img "Coach" [ref=e145]
+        - figure [ref=e152]:
+          - img "Coach" [ref=e153]
+        - figure [ref=e160]:
+          - img "Coach" [ref=e161]
+  - contentinfo [ref=e60]:
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - heading "Find Us" [level=2] [ref=e64]
+        - paragraph [ref=e65]:
+          - generic [ref=e66]: Western Heights School District
+          - generic [ref=e67]: 8401 SW 44th St
+          - generic [ref=e68]: Oklahoma City, OK 73179
+          - generic [ref=e69]:
+            - text: "P:"
+            - link "(405) 350-3410" [ref=e70] [cursor=pointer]:
+              - /url: tel:(405) 350-3410
+          - generic [ref=e71]:
+            - text: "F:"
+            - link "405-212-5594" [ref=e72] [cursor=pointer]:
+              - /url: tel:405-212-5594
+          - generic [ref=e73]: communication@whisd.org
+        - list
+      - generic [ref=e74]:
+        - heading "Schools" [level=2] [ref=e75]
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "Western Heights School District" [ref=e78] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e79]:
+            - link "Bridgestone Intermediate School" [ref=e80] [cursor=pointer]:
+              - /url: /o/bs
+          - listitem [ref=e81]:
+            - link "Council Grove Elementary School" [ref=e82] [cursor=pointer]:
+              - /url: /o/cg
+          - listitem [ref=e83]:
+            - link "Greenvale Elementary School" [ref=e84] [cursor=pointer]:
+              - /url: /o/gv
+          - listitem [ref=e85]:
+            - link "Western Heights High School" [ref=e86] [cursor=pointer]:
+              - /url: /o/hs
+          - listitem [ref=e87]:
+            - link "John Glenn Elementary School" [ref=e88] [cursor=pointer]:
+              - /url: /o/jg
+          - listitem [ref=e89]:
+            - link "Western Heights Middle School" [ref=e90] [cursor=pointer]:
+              - /url: /o/ms
+          - listitem [ref=e91]:
+            - link "Winds West Elementary" [ref=e92] [cursor=pointer]:
+              - /url: /o/ww
+        - list
+      - generic [ref=e93]:
+        - heading "Stay Connected" [level=2] [ref=e94]
+        - link "Download our iOS App" [ref=e95] [cursor=pointer]:
+          - /url: https://aptg.co/1zn83S
+          - img "Download our iOS App" [ref=e96]
+        - link "Download our Android App" [ref=e97] [cursor=pointer]:
+          - /url: https://aptg.co/pqJdtN
+          - img "Download our Android App" [ref=e98]
+        - list [ref=e99]:
+          - listitem [ref=e100]:
+            - link "Visit us on Facebook" [ref=e101] [cursor=pointer]:
+              - /url: https://www.facebook.com/whisd
+              - img "Visit us on Facebook" [ref=e102]
+    - generic [ref=e103]:
+      - generic [ref=e104]: Copyright © 2026 Western Heights School District. All rights reserved.
+      - generic [ref=e105]:
+        - text: Powered By
+        - link "Apptegy Visit us to learn more" [ref=e106] [cursor=pointer]:
+          - /url: https://www.apptegy.com
+          - text: Apptegy
+          - generic [ref=e107]: Visit us to learn more
